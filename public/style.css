@@ -1,0 +1,84 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.message{
+  position: absolute;
+  display: block;
+  left: 100px;
+  top: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.3em;
+  border: 1px solid #f16821;
+  background-color: #ffba5a;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.draggable{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+.droppable{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  background-color: red;
+}
+.container{
+  width: 50%;
+  min-width: 600px;
+  /* margin: 50px auto; */
+}
+img{
+  width:50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  margin-left: 25px;
+}
+li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header{
+  margin: 10px auto;
+}
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  padding: 0;
+}
+header nav ul li{
+  margin: 0 10px;
+}
+li:last-child{
+  margin-left: auto;
+}
+
+.btn-group{
+  margin: 20px 0;
+}
+
+img{
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
